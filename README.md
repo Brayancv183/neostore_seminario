@@ -266,39 +266,37 @@ Electrónica · Ropa · Hogar · Gaming · Otros
 
 neonstore/
 ├── backend/
-│   ├── server.js           # Punto de entrada Express
-│   ├── db.js               # Pool de conexiones MySQL
+│   ├── server.js               # Punto de entrada Express
+│   ├── db.js                   # Pool de conexiones MySQL
 │   ├── routes/
-│   │   └── productos.js    # CRUD completo con validaciones
-│   ├── .env                # Variables de entorno (no subir a Git)
+│   │   └── productos.js        # CRUD completo con validaciones
+│   ├── .env                    # Variables de entorno (no subir a Git)
 │   └── package.json
 │
 ├── frontend/
 │   ├── src/
 │   │   ├── api/
-│   │   │   └── productos.js      # Clientes Axios (patrón { data, error })
+│   │   │   └── productos.js    # Clientes Axios (patrón { data, error })
 │   │   ├── components/
-│   │   │   ├── ConfirmModal.jsx  # Modal de confirmación de eliminación
-│   │   │   ├── Navbar.jsx        # Header con contador de productos
-│   │   │   ├── ProductCard.jsx   # Tarjeta individual de producto
-│   │   │   ├── ProductForm.jsx   # Modal de creación/edición
-│   │   │   ├── SearchBar.jsx     # Input + dropdown de categoría con debounce
-│   │   │   └── Toast.jsx         # Notificaciones de éxito/error
+│   │   │   ├── ConfirmModal.jsx    # Modal de confirmación de eliminación
+│   │   │   ├── Navbar.jsx          # Header con contador de productos
+│   │   │   ├── ProductCard.jsx     # Tarjeta individual de producto
+│   │   │   ├── ProductForm.jsx     # Modal de creación/edición
+│   │   │   ├── SearchBar.jsx       # Input + dropdown de categoría con debounce
+│   │   │   └── Toast.jsx           # Notificaciones de éxito/error
 │   │   ├── pages/
-│   │   │   └── ProductosPage.jsx # Vista principal con estado central
+│   │   │   └── ProductosPage.jsx   # Vista principal con estado central
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   ├── index.html
-│   ├── tailwind.config.js  # Paleta neón y tokens de diseño
+│   ├── tailwind.config.js      # Paleta neón y tokens de diseño
 │   ├── vite.config.js
 │   └── package.json
 │
-├── schema.sql              # DDL + datos de ejemplo
-├── .env.example            # Plantilla de variables de entorno
+├── schema.sql                  # DDL + datos de ejemplo
+├── .env.example                # Plantilla de variables de entorno
 ├── .gitignore
 └── README.md
-
-
 ---
 
 ## 🤖 Prompts de IA utilizados
